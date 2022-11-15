@@ -13,7 +13,10 @@ function counts() {
   document.querySelector("#minutes").innerHTML = minut;
   document.querySelector("#seconds").innerHTML = s;
   if (gap < 0) {
-    document.body.innerHTML = "а акция уже всё!";
+    document.body.innerHTML = "Happy New Year!";
+    console.log(
+      "Если ты хотел тут увидеть что-то важное, то его тут нет. Пошли в снежки играть"
+    );
   }
 }
 counts();
